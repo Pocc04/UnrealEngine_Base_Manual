@@ -8,20 +8,21 @@ TO-DO
 ```text
 Content/
 ├── Blueprints/
-│   ├── Characters                  #Contiene i **Blueprint** per il comportamento dei personaggi
-│   └── GameMode.uasset             #Blueprint per Impostare le Regole del Gioco
-├── Fonts/                          #Contiene i Font per i Testi
+│   ├── Characters                          #Contiene i **Blueprint** per il comportamento dei personaggi
+│   │   └── "Specific_Character_Folder"
+│   └── GameMode.uasset                     #Blueprint per Impostare le Regole del Gioco
+├── Fonts/                                  #Contiene i Font per i Testi
 ├── Input/
-│   ├── Actions/                    #Contiene tutte le **Input Actions**
+│   ├── Actions/                            #Contiene tutte le **Input Actions**
 │   └── InputMappingCotext.uasset
-├── Maps/                           #Contiene la mappa del mondo
+├── Maps/                                   #Contiene la mappa del mondo
 ├── PaperAssets/
-│   ├── Characters/                 #Contiene **Sprite**, **Texture**, **Sprite Sheet** and **Flipbook** per ogni Character
-│   ├── Environment/                #Contiene **Sprite**, **Texture**, **Sprite Sheet** and **Flipbook** per ogni Ambiente di gioco
-│   ├── Props/                      #Contiene **Sprite**, **Texture**, **Sprite Sheet** and **Flipbook** per ogni Oggetto
-│   └── VFX/                        #Contiene **Sprite**, **Texture**, **Sprite Sheet** and **Flipbook** per ogni VFX
-├── Sounds/                         #Contiene i suoni
-└── UI/                             #Contiene le User Inerface
+│   ├── Characters/                         #Contiene **Sprite**, **Texture**, **Sprite Sheet** and **Flipbook** per ogni Character
+│   ├── Environment/                        #Contiene **Sprite**, **Texture**, **Sprite Sheet** and **Flipbook** per ogni Ambiente di gioco
+│   ├── Props/                              #Contiene **Sprite**, **Texture**, **Sprite Sheet** and **Flipbook** per ogni Oggetto
+│   └── VFX/                                #Contiene **Sprite**, **Texture**, **Sprite Sheet** and **Flipbook** per ogni VFX
+├── Sounds/                                 #Contiene i suoni
+└── UI/                                     #Contiene le User Inerface
 ```
 
 ## Azioni Iniziali Consigliate

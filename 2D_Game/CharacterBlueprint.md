@@ -25,3 +25,6 @@ Come ottimizzazione in giochi 2D diabilitiamo nei Details di Spring Arm **Do Col
 - **Dettagli Camera**
     - Impostiamo la **Projection Mode** in Orthographic per il giochi 2D.
     - La **Ortho Width** imposta la distanza della camera dallo soggetto su cui punta.
+
+- **Velocità di movimento**
+Modificare il **Max Walk Speed** nei dettagli del blueprint
